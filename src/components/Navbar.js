@@ -46,7 +46,7 @@ export default function Navbar({theme,setTheme}){
                     <a target="_blank" href="https://github.com/wathilaDewnaka/" className="text-decoration-none bg-transparent rounded-3 p-3" style={{ color: theme.text_primary, background: theme.primary, cursor: "pointer", transition: "all 0.2s ease-in-out" }} onClick={() => setMobile(!mobile)}>GitHub Page</a>
 
                     {theme == lightTheme && <i className="bi bi-toggle-off ml-3" style={{fontSize: "40px", color: "black", cursor: "pointer"}} onClick={() => {setTheme(darkTheme)}}></i>}
-                    {theme == darkTheme && <i clasName="bi bi-toggle-on ml-3" style={{fontSize: "40px", color: "white", cursor: "pointer"}} onClick={() => {setTheme(lightTheme)}}></i>}
+                    {theme == darkTheme && <i className="bi bi-toggle-on ml-3" style={{fontSize: "40px", color: "white", cursor: "pointer"}} onClick={() => {setTheme(lightTheme)}}></i>}
                 </div>
             )}
 

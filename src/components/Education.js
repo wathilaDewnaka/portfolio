@@ -14,7 +14,7 @@ export default function Education({theme}){
                     {education.map((education, index) => (
                         <ul key={index} className="rounded-2 mt-1" style={{backgroundColor: theme.card,color: theme.text_secondary, listStyle: "none"}}>
                             <li className="p-4">
-                                <div className="fs-3 fw-bolder">{education.degree}</div>
+                                <div className="fs-4">{education.degree}</div>
                                 <div className="fs-5 fw-bold mt-2">{education.school}</div>
                                 <div className="mt-2">{education.date}</div>
                                 <div className="mt-2">{education.desc}</div>

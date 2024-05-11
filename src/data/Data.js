@@ -144,9 +144,9 @@ export const MyDetails = {
       school: "Vidura Collage",
       date: "Jan 2011 - May 2022",
       grade: "7A 1B 1C",
-      desc: "Completed by Ordinary Level education in English medium at Vidura Collage Colombo. In my school life i participated in many Exibiions and even i was able to obtain first place at our school Compuer Day (Certificate Awarded by Vega Innovations)",
+      desc: "Completed by Ordinary Level education in English medium at Vidura Collage Colombo. In my school life i participated in many Exibiions and even i was able to obtain first place at our school Computer Day (Certificate Awarded by Vega Innovations)",
       degree: "General Certifcatte Education - Ordinary Level",
-    },
+    }
   ];
   
   export const projects = [
