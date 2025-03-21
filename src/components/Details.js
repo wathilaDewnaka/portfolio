@@ -1,5 +1,5 @@
 import { MyDetails } from "../data/Data";
-import Portfolio from "../images/wathila.jpeg"
+import Portfolio from "../images/wathila.png"
 import Typewriter from 'typewriter-effect';
 
 export default function Details({theme}){
@@ -25,7 +25,7 @@ export default function Details({theme}){
                     <div className="mb-4 lh-lg">{MyDetails.description}</div>
 
                     
-                    <a className="py-2 px-0 fw-bold text-decoration-none btn rounded-4" href="https://drive.google.com/file/d/1dPPBmVBPTKC_20g855_5MvUyP7mShug6/view?usp=sharing" style={{width: "95%", maxWidth: "300px", color: "white", background: "linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%)"}}>Download Resume</a>
+                    <a className="py-2 px-0 fw-bold text-decoration-none btn rounded-4" href="https://drive.usercontent.google.com/download?id=1x3YQhLq3-M8D2xBiMMppuIvtj9z4OMjo&export=download&authuser=0&confirm=t&uuid=0d3ed5ec-e337-4af0-8d2d-aa8f78d606fd&at=AEz70l680U6gNGeQ66A7VHMAuH9n:1742548275715" style={{width: "95%", maxWidth: "300px", color: "white", background: "linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%)"}}>Download Resume</a>
                     
                 </div>
                 <div className="d-flex align-items-center justify-content-center justify-content-sm-center justify-content-md-end justify-content-lg-end justify-content-xl-end justify-content-xxl-end"style={{width: "100%",gap: "12px"}}>

@@ -11,14 +11,25 @@ export default function Projects({theme,open,setOpen}){
                 </div>
 
 
-                <div className="d-flex justify-content-center align-items-center flex-wrap mb-4">
+                <div className="d-flex justify-content-start align-items-center flex-wrap mb-4" style={{paddingLeft: "40px"}}>
                     {projects.map((project, index) => (
                         <div key={index} className="mt-3 mx-3 rounded-3 py-4 px-3 project" style={{width: "330px", height: "600px", backgroundColor: theme.card, cursor: "pointer"}} onClick={() => setOpen({state: true, project: project})}>
                             <div className="d-flex flex-column px-1" style={{width: "100%"}}>
-                                <img src={project.image} alt="" className="rounded-2" style={{width: "100%", height: "180px"}}></img>
-                                <div className="fs-3 fw-bold" style={{color: theme.text_secondary}}>{project.title}</div>
+                            <img 
+                                src={project.image} 
+                                alt="project" 
+                                className="rounded-2 object-contain" 
+                                style={{
+                                    height: "180px", 
+                                    width: index !== 0 && index !== 3 ? "100%" : "130px",
+                                    margin: "auto"
+                                }} 
+/>
+
+
+                                <div className="fs-4 fw-bold mt-3" style={{color: theme.text_secondary}}>{project.title}</div>
                                 <div className="fw-medium" style={{color: theme.text_secondary}}>{project.date}</div>
-                                <div className="mt-2" style={{color: theme.text_secondary}}>{project.description}</div>
+                                <div className="mt-2 " style={{color: theme.text_secondary}}>{project.description.length > 300 ? project.description.substring(0, 300) + " ..." : project.description}</div>
                             </div>
                         </div>
                     ))}

@@ -26,8 +26,12 @@ const ProjectExpand = ({ theme, open, setOpen }) => {
             <p>{project?.description}</p>
 
             <div className="d-flex flex-column flex-sm-row mt-5">
-              <a href={project?.github} className="py-2 px-0 fw-bold text-decoration-none btn rounded-4 mb-3" style={{ width: "95%", maxWidth: "250px", color: theme.text_secondary, background: "transparent", border: "1.5px solid black", marginRight: "10px" }}>Source Code - Github</a>
-              {project?.webapp != "null" && <a href={project?.webapp} className="py-2 px-0 fw-bold text-decoration-none btn rounded-4 mb-3" style={{ width: "95%", maxWidth: "250px", color: "white", background: "linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%)" }}>Live Demo</a>}
+              <a href={project?.github} className="py-2 px-0 fw-bold text-decoration-none btn rounded-4 mb-3" target="_blank"
+    rel="noopener noreferrer" style={{ width: "95%", maxWidth: "250px", color: theme.text_secondary, background: "transparent", border: "1.5px solid black", marginRight: "10px" }}>Source Code - Github</a>
+              {project?.webapp != "null" && <a href={project?.webapp} className="py-2 px-0 fw-bold text-decoration-none btn rounded-4 mb-3" target="_blank"
+    rel="noopener noreferrer" style={{ width: "95%", maxWidth: "250px", color: "white", background: "linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%)" , marginRight: "10px"}} >Live Demo</a>}
+              {project?.media != "null" &&  <a href={project?.media} className="py-2 px-0 fw-bold text-decoration-none btn rounded-4 mb-3" style={{ width: "95%", maxWidth: "250px", color: "white", background: "linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%)" }} target="_blank"
+    rel="noopener noreferrer">Media</a>}
             </div>
 
           </div>
