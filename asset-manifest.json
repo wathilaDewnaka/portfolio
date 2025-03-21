@@ -1,19 +1,23 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.59390975.css",
-    "main.js": "/portfolio/static/js/main.21939fd1.js",
+    "main.js": "/portfolio/static/js/main.79da9430.js",
+    "static/media/ticket.png": "/portfolio/static/media/ticket.5bc3bd3d1617e9b8dad9.png",
+    "static/media/8.png": "/portfolio/static/media/8.b08455df6bf6aff7a619.png",
+    "static/media/step.png": "/portfolio/static/media/step.d18c6e33a41dd374dd7b.png",
     "static/media/zero-hunger.png": "/portfolio/static/media/zero-hunger.a1e930232143cc8846b6.png",
     "static/media/portfolio.png": "/portfolio/static/media/portfolio.b489bb7a50e0fae17542.png",
-    "static/media/wathila.jpeg": "/portfolio/static/media/wathila.03c76bde749f4d066074.jpeg",
+    "static/media/rent.png": "/portfolio/static/media/rent.a431f630ae6e948c45a4.png",
+    "static/media/wathila.png": "/portfolio/static/media/wathila.9f3b0609c00038d396cf.png",
     "static/media/image.png": "/portfolio/static/media/image.41b56bfc7220cab9e737.png",
     "static/media/weather.png": "/portfolio/static/media/weather.eff21bbcb8bcd1502ee9.png",
     "static/media/blog.png": "/portfolio/static/media/blog.757936de9031b6065a3c.png",
     "index.html": "/portfolio/index.html",
     "main.59390975.css.map": "/portfolio/static/css/main.59390975.css.map",
-    "main.21939fd1.js.map": "/portfolio/static/js/main.21939fd1.js.map"
+    "main.79da9430.js.map": "/portfolio/static/js/main.79da9430.js.map"
   },
   "entrypoints": [
     "static/css/main.59390975.css",
-    "static/js/main.21939fd1.js"
+    "static/js/main.79da9430.js"
   ]
 }
